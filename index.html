@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+             <h2 id="question_row"> This is a dummy question</h2>             <!--THIS LINE IS FOR QUESTION -->
+
+            <div id="row">      <!--OPTION A -->
+                <input class="options" id="option1" type="radio" value = "a" name="option">
+                <label for="">Option 1</label>
+            </div>   
+            <div id="row">      <!--OPTION B -->
+                <input class="options" id="option2" type="radio" value = "b" name="option">
+                <label for="">Option 2</label>
+            </div>
+            <div id="row">      <!--OPTION C -->
+                <input class="options" id="option3" type="radio" value = "c" name="option">
+                <label for="">Option 3</label>
+            </div>
+            <div id="row">      <!--OPTION D -->
+                <input class="options" id="option4" type="radio" value = "d" name="option">
+                <label for="">Option 4</label>
+            </div>
+
+            <button class="btn" onclick=sumbitquiz()>Sumbit</button>     <!-- SUMBIT BUTTON -->
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
